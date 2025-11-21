@@ -7,7 +7,12 @@ insert into employee values
     ('Ramesh', 'K', 'Narayan', 666884444, '1962-09-15', '975-Fire-Oak-Humble-TX', 'M', 38000, null, 5),
     ('Joyce', 'A', 'English', 453453453, '1972-07-31', '5631-Rice-Houston-TX', 'F', 25000, null, 5),
     ('Ahmad', 'V', 'Jabbar', 987987987, '1969-03-29', '980-Dallas-Houston-TX', 'M', 25000, null, 4);
-
+    
+insert into employee values
+    ('Jim', 'E', 'Borg', 325354756, '1937-11-10', '450-Stone-Houston-TX', 'M', 55000, 123456789, 1), 
+    ('Jay', 'O', 'Smith', 533642623, '1940-12-15', '450-Stone-Houston-TX', 'F', 40000, 453453453, 1), 
+    ('Winston', 'J', 'Wallace', 235346425, '1970-05-04', '450-Stone-Houston-TX', 'M', 45000, 987987987, 1); 
+    
 insert into dependent values (333445555, 'Alice', 'F', '1986-04-05', 'Daughter'),
 							 (333445555, 'Theodore', 'M', '1983-10-25', 'Son'),
                              (333445555, 'Joy', 'F', '1958-05-03', 'Spouse'),
